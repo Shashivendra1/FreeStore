@@ -14,6 +14,8 @@
 		D7F0157227422EE90091AB9F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7F0157127422EE90091AB9F /* Preview Assets.xcassets */; };
 		D7F0157527422EE90091AB9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7F0157327422EE90091AB9F /* LaunchScreen.storyboard */; };
 		D7F0157E27422F3F0091AB9F /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F0157D27422F3F0091AB9F /* ListView.swift */; };
+		D7F01582274236F40091AB9F /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F01581274236F40091AB9F /* CircleImage.swift */; };
+		D7F015852742371E0091AB9F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F015842742371E0091AB9F /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		D7F0157427422EE90091AB9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7F0157627422EE90091AB9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7F0157D27422F3F0091AB9F /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		D7F01581274236F40091AB9F /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		D7F015842742371E0091AB9F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				D7F0157627422EE90091AB9F /* Info.plist */,
 				D7F0157027422EE90091AB9F /* Preview Content */,
 				D7F0157D27422F3F0091AB9F /* ListView.swift */,
+				D7F01581274236F40091AB9F /* CircleImage.swift */,
+				D7F015842742371E0091AB9F /* MapView.swift */,
 			);
 			path = FreeStore;
 			sourceTree = "<group>";
@@ -149,9 +155,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7F0157E27422F3F0091AB9F /* ListView.swift in Sources */,
+				D7F015852742371E0091AB9F /* MapView.swift in Sources */,
 				D7F0156927422EE50091AB9F /* AppDelegate.swift in Sources */,
 				D7F0156B27422EE50091AB9F /* SceneDelegate.swift in Sources */,
 				D7F0156D27422EE50091AB9F /* ContentView.swift in Sources */,
+				D7F01582274236F40091AB9F /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
